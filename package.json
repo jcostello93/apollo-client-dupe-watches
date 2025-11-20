@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@apollo/client": "4.1.0-alpha.3",
+    "@apollo/client": "https://pkg.pr.new/apollographql/apollo-client/@apollo/client@13026",
     "graphql": "^16.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -17,8 +17,8 @@
   "devDependencies": {
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.0",
     "typescript": "^5.4.0",
-    "vite": "^5.0.0",
-    "@vitejs/plugin-react": "^4.2.0"
+    "vite": "^5.0.0"
   }
 }

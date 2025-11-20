@@ -105,7 +105,6 @@ export const App: React.FC = () => {
         <button onClick={() => {
           const storeId = client.cache.identify({ __typename: 'Parent', id: PARENT_ID });
           if (storeId) {
-            console.log()
             client.cache.writeFragment({
               id: storeId,
               fragment: ParentName_fragment,
